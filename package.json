@@ -9,11 +9,7 @@
     "build": "tsc",
     "test": "npm run build && jest --experimental-specifier-resolution=node"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Simple-Innovation/simple-az.git"
-  },
-  "files": [
+ "files": [
     "dist"
   ],
   "directories": {
@@ -27,9 +23,9 @@
   "author": "Sebastian Rogers",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/Simple-Innovation/jest-dotenv/issues"
+    "url": "https://github.com/Simple-Innovation/simple-jest-dotenv/issues"
   },
-  "homepage": "https://github.com/Simple-Innovation/jest-dotenv#readme",
+  "homepage": "https://github.com/Simple-Innovation/simple-jest-dotenv#readme",
   "devDependencies": {
     "@types/jest": "^27.4.1",
     "dotenv": "^16.0.0",
