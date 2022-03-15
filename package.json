@@ -1,0 +1,42 @@
+{
+  "name": "jest-dotenv",
+  "version": "1.0.0",
+  "description": "Use dotenv environment variables with TypeScript and Jest",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "test": "npm run build && jest --experimental-specifier-resolution=node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simple-Innovation/simple-az.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "node",
+    "Jest",
+    "TypeScript"
+  ],
+  "author": "Sebastian Rogers",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Simple-Innovation/jest-dotenv/issues"
+  },
+  "homepage": "https://github.com/Simple-Innovation/jest-dotenv#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "dotenv": "^16.0.0",
+    "jest": "^27.5.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {}
+}
